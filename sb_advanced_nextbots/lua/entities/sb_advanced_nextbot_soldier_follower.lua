@@ -38,5 +38,6 @@ function ENT:Initialize()
 	self:SetModel(table.Random(self.Models))
 	self:SetFriendly(true)
 	
-	self:SetClassRelationship("sb_advanced_nextbot_soldier_follower",D_LI)
+	self:SetClassRelationship("sb_advanced_nextbot_soldier_follower",D_LI)|
+	self:SetClassRelationship("sb_advanced_nextbot_soldier_hostile",D_HT)
 end
